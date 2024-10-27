@@ -7,7 +7,6 @@ function App() {
   return (
     <BrowserRouter>
     <Header/>
-    <Products />
       <Fragment>
         <Routes>
           <Route path='/' element={<Products />} />

@@ -6,7 +6,7 @@ export const Products = () => {
         {
             img:"/images/1.webp",
             title:"Porsche",
-            rate:5
+            rate:4
         },
         {
             img:"/images/2.webp",
@@ -16,6 +16,11 @@ export const Products = () => {
         {
             img:"/images/3.webp",
             title:"Maserati",
+            rate:3
+        },
+        {
+            img:"/images/4.webp",
+            title:"Hyundai",
             rate:5
         },
     ]
@@ -23,9 +28,9 @@ export const Products = () => {
         {
             products.map((item)=>
             <Card>
-                <image className="product_container_img" img={item.img} />
+                <img className="product_container_img" src={item.img} />
                 <div className="product_container_title">{item.title}</div>
-                <div className="product_container_rate">{item.rate}</div>
+                <div className="product_container_rate">Rate: {item.rate}</div>
             </Card>
             )
         }

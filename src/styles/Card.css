@@ -1,9 +1,12 @@
 .card_container{
     width: 100%;
-    background-color: blue;
-    padding: 10px;
+    background-color: rgb(40, 40, 104);
+    padding: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    flex-direction: column;
+    cursor: pointer;
 }
