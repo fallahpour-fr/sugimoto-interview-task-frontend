@@ -1,0 +1,40 @@
+/* Header.css */
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #5676dd;
+    width: 100%;
+  }
+  
+  /* Inner containers */
+  .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .logo>svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    /* Stack elements vertically on mobile */
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo>svg {
+      width: 20px;
+      height: 20px;
+    }
+  
+  }
+  

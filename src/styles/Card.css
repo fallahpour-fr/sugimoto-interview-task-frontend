@@ -1,0 +1,9 @@
+.card_container{
+    width: 100%;
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

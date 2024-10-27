@@ -1,0 +1,19 @@
+.product_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.product_container_img{
+
+}
+
+.product_container_title{
+
+}
+
+.product_container_rate{
+    
+}
