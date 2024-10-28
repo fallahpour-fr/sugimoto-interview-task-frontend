@@ -23,8 +23,8 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/e-commerce-product-page.git
-   cd e-commerce-product-page
+   git clone https://github.com/fallahpour-fr/sugimoto-interview-task-frontend.git
+   cd sugimoto-interview-task-frontend
 
 2.Install dependencies:
   npm install
