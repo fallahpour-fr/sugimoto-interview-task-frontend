@@ -1,7 +1,7 @@
 import "../styles/Card.css";
 
 export const Card=(props)=>{
-    return <div className="card_container">
+    return <div onClick={props.onClick} className="card_container">
         {props.children}
     </div>
 }

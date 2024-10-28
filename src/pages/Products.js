@@ -1,33 +1,19 @@
 import { Card } from "../components/Card";
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom'; 
 import '../styles/Products.css';
 
 export const Products = () => {
-    let products=[
-        {
-            img:"/images/1.webp",
-            title:"Porsche",
-            rate:4
-        },
-        {
-            img:"/images/2.webp",
-            title:"Lamborghini",
-            rate:5
-        },
-        {
-            img:"/images/3.webp",
-            title:"Maserati",
-            rate:3
-        },
-        {
-            img:"/images/4.webp",
-            title:"Hyundai",
-            rate:5
-        },
-    ]
+    const products = useSelector((state) => state.products.products);
+    const navigate = useNavigate(); 
+    const handleProductClick = (product) => {
+        navigate('/product-detail', { state: { product } });
+        console.log("hi")
+    };
     return <div className="product_container">
         {
             products.map((item)=>
-            <Card>
+            <Card key={item.title} onClick={() => handleProductClick(item)}>
                 <img className="product_container_img" src={item.img} />
                 <div className="product_container_title">{item.title}</div>
                 <div className="product_container_rate">Rate: {item.rate}</div>
@@ -36,3 +22,5 @@ export const Products = () => {
         }
     </div>
 }
+
+export default Products;

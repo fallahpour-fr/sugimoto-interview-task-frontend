@@ -25,11 +25,6 @@
   
   /* Responsive layout */
   @media (max-width: 768px) {
-    /* Stack elements vertically on mobile */
-    .container {
-      flex-direction: column;
-      text-align: center;
-    }
   
     .logo>svg {
       width: 20px;

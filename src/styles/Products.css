@@ -1,6 +1,5 @@
 .product_container{
     width: 100%;
-    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,3 +20,10 @@
 .product_container_rate{
     color: white;
 }
+
+@media (max-width: 768px) {
+    .product_container {
+      flex-direction: column;
+      text-align: center;
+    }  
+  }
