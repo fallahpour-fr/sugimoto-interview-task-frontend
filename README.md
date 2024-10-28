@@ -6,18 +6,6 @@ Develop a responsive product page for an e-commerce website using React, showcas
 
 ---
 
-## Table of Contents
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
-- [Features](#features)
-- [State Management](#state-management)
-- [Styling](#styling)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## Technologies Used
 - **React**: A JavaScript library for building user interfaces.
 - **React Router**: For handling routing within the application.
